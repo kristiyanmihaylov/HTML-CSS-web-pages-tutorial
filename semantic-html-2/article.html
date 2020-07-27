@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Semantic HTML</title>
+  </head>
+  <body>
+    <div class='page'>
+   <header>
+    <h1>Interneting is Easy</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Sign-up</a></li>
+      </ul>
+    </nav>
+  </header>
+    <article>
+      <header>
+      <h1>Semantic HTML</h1>
+      <p>By Kris Mihaylov. Published <time datetime="2020-06-30"> June 30th</time></p>
+      </header>
+      <aside class='advert'>
+        <img src="some-advert-image.png" alt="">
+      </aside>
+      <p>This is an example page talking about Semantic HTML</p>
+
+      <section>
+        <h2>The Document Outline</h2>
+        <p>HTML5 includes several sectioning elements that affect
+          the document outline.</p>
+
+          <figure>
+            <img src="semantic-elements.png" alt="Diagram
+            showing <article>, <section> and <nav> elements">
+            <figcaption>New HTML Semantic elements</figcaption>
+          </figure>
+
+        <h3>Headers</h3>
+        <p>The <code>&lt;header&gt;</code> element is one such
+        sectioning element.</p>
+
+        <h3>Footers</h3>
+        <p>And so is the <code>&lt;footer&gt;</code> element.</p>
+      </section>
+      <section>
+        <h2>Inline Semantic HTML</h2>
+    
+        <p>The <code>&lt;time&gt;</code> is semantic, but its not
+        sectioning element.</p>
+          <footer>
+        <p>This fake article is written to help me get the 
+        semantic point of the HTML world, bro.</p>
+        <address>
+          Please contact <a href="mailto:kristiyanfxcm@gmail.com">
+            Kristiyan Mihaylov</a> for questions about this.
+        </address>
+        </footer>
+      </section>
+    </article>
+    <aside class='sidebar'>
+      <h2>Sidebar</h2>
+      <p>Some sidebar content</p>
+      <nav>
+        <h3>HTML &amp; CSS Tutorial</h3>
+        <ul>
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#">Basic Web Pages</a></li>
+          <li><a href="#">etc...</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <h3>Javascript Tutorial</h3>
+        <ul>
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#">Hello, Javascript</a></li>
+          <li><a href="#">etc...</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <footer>
+    <p> &copy; 2020 Kris Mihaylov</p>
+  </footer>
+</div>
+  </body>
+</html>
